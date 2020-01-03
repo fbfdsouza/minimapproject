@@ -1,5 +1,4 @@
 import React, { PureComponent } from "react";
-import Button from "./components/Button";
 import "./App.css";
 import { connect } from "react-redux";
 import { fetchUsers, selectUser } from "./redux/actions/users";
@@ -8,7 +7,7 @@ import {
   getSelectedUserPositionSelector
 } from "./selectors/selectors";
 import { Map as LeafletMap, TileLayer, Marker, Popup } from "react-leaflet";
-import { Select } from "semantic-ui-react";
+import { Select, Button } from "semantic-ui-react";
 
 class App extends PureComponent {
   render() {
@@ -24,7 +23,9 @@ class App extends PureComponent {
         <h2>Plot a user in the map by selecting it in the dropdown</h2>
         <div className="container">
           <div className="box1">
-            <Button onClick={fetchUsers}>Fetch Users</Button>
+            <Button onClick={fetchUsers} primary>
+              Fetch Users
+            </Button>
             <Select
               placeholder="Person"
               options={userNames.map(name => {
