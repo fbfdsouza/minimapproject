@@ -1,7 +1,10 @@
 import React from "react";
+import { Button } from "semantic-ui-react";
 
-const Button = ({ onClick, children }) => {
-  return <button onClick={onClick}>{children}</button>;
+export default ({ onClick, children }) => {
+  return (
+    <Button onClick={onClick} primary>
+      {children}
+    </Button>
+  );
 };
-
-export default Button;

@@ -5,9 +5,10 @@ const initialState = { users: [], isFetching: false };
 const users = (state = initialState, action) => {
   switch (action.type) {
     case FETCH_USERS:
-      return Object.assign({ isFetching: true }, state);
+      return { ...state, isFetching: true };
     case FETCH_USERS_SUCCESS:
       return {
+        ...state,
         users: action.payload,
         isFetching: false
       };
