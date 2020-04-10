@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import { fetchUsers, selectUser } from "./redux/actions/users";
 import {
   namesSelector,
-  getSelectedUserPositionSelector
+  getSelectedUserPositionSelector,
 } from "./selectors/selectors";
 import { Map as LeafletMap, TileLayer, Marker, Popup } from "react-leaflet";
 import { Select, Button } from "semantic-ui-react";
@@ -15,7 +15,7 @@ class App extends PureComponent {
       fetchUsers,
       selectUser,
       userNames,
-      selectedUserPosition
+      selectedUserPosition,
     } = this.props;
     let position = selectedUserPosition || [-3.71722, -38.54306];
     return (
@@ -24,11 +24,11 @@ class App extends PureComponent {
         <div className="container">
           <div className="box1">
             <Button onClick={fetchUsers} primary>
-              Fetch Users
+              Fetch People
             </Button>
             <Select
               placeholder="Person"
-              options={userNames.map(name => {
+              options={userNames.map((name) => {
                 return { key: name, value: name, text: name };
               })}
               onChange={(e, { value }) => {
@@ -66,10 +66,10 @@ function mapStateToProps(state) {
   let selectedUserPosition = getSelectedUserPositionSelector(state);
   return { userNames, selectedUserPosition };
 }
-const mapDispatchToProps = dispatch => {
+const mapDispatchToProps = (dispatch) => {
   return {
     fetchUsers: () => dispatch(fetchUsers()),
-    selectUser: value => dispatch(selectUser(value))
+    selectUser: (value) => dispatch(selectUser(value)),
   };
 };
 export default connect(mapStateToProps, mapDispatchToProps)(App);
