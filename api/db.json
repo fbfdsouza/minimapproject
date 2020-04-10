@@ -1,0 +1,124 @@
+{
+  "people": [
+    {
+      "id": 1,
+      "name": "Michael Jackson",
+      "username": "michaeljackson",
+      "email": "michaeljackson@april.biz",
+      "address": {
+        "geo": {
+          "lat": "40.730610",
+          "lng": "-73.935242"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "Celine Dion",
+      "username": "celinedion",
+      "email": "celinedion@melissa.tv",
+      "address": {
+        "geo": {
+          "lat": "53.760860",
+          "lng": "-98.813873"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "Bruno Filgueiras",
+      "username": "brunofilgueiras",
+      "email": "fbfdsouza@gmail.com",
+      "address": {
+        "geo": {
+          "lat": "-3.731862",
+          "lng": "-38.526669"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "name": "Conor Mcgregor",
+      "username": "mcgregornne",
+      "email": "mcgregornne@kory.org",
+      "address": {
+        "geo": {
+          "lat": "53.350140",
+          "lng": "-6.266155"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "name": "Christopher Hemsworth",
+      "username": "hemsworth",
+      "email": "hemsworthr@annie.ca",
+      "address": {
+        "geo": {
+          "lat": "-35.277988",
+          "lng": "149.120453"
+        }
+      }
+    },
+    {
+      "id": 6,
+      "name": "Jackie Chan",
+      "username": "jackiechan",
+      "email": "jackiechan@jasper.info",
+      "address": {
+        "geo": {
+          "lat": "22.302219",
+          "lng": "114.174637"
+        }
+      }
+    },
+    {
+      "id": 7,
+      "name": "George Weah",
+      "username": "georgeweah",
+      "email": "georgeweah@billy.biz",
+      "address": {
+        "geo": {
+          "lat": "6.428055",
+          "lng": "-9.429499"
+        }
+      }
+    },
+    {
+      "id": 8,
+      "name": "Lionel Messi",
+      "username": "lionelmessi",
+      "email": "lionelmessi@rosamond.me",
+      "address": {
+        "geo": {
+          "lat": "-38.416096",
+          "lng": "-63.616673"
+        }
+      }
+    },
+    {
+      "id": 9,
+      "name": "Cristiano Ronaldo",
+      "username": "cristianoronaldo",
+      "email": "cristianoronaldo@rosamond.me",
+      "address": {
+        "geo": {
+          "lat": "38.722252",
+          "lng": "-9.139337"
+        }
+      }
+    },
+    {
+      "id": 10,
+      "name": "Vitas",
+      "username": "vitas",
+      "email": "vitas@rosamond.me",
+      "address": {
+        "geo": {
+          "lat": "61.524010",
+          "lng": "105.318756"
+        }
+      }
+    }
+  ]
+}
