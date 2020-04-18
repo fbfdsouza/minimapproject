@@ -4,7 +4,7 @@ This is a simple project that uses [leaflet](https://github.com/Leaflet/Leaflet)
 The project comunicates with a simple server that uses the library [json-server](https://github.com/typicode/json-server).
 
 
-## Get it up an running
+## Get it up and running
 
 #### With Node and NPM Installed .
 
