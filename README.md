@@ -6,7 +6,7 @@ The project comunicates with a simple server that uses the library [json-server]
 
 ## Get it up and running
 
-### With Node and NPM Installed (Execute this process to the api and client projects) .
+### With Node and NPM Installed (Execute this process to the api and client project) .
 
 1 - Install the dependencies
 
