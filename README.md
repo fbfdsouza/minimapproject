@@ -6,7 +6,7 @@ The project comunicates with a simple server that uses the library [json-server]
 
 ## Get it up and running
 
-#### With Node and NPM Installed .
+### With Node and NPM Installed .
 
 1 - Install the dependencies
 
@@ -18,6 +18,8 @@ npm install
 ```bash
 npm start
 ```
+
+#### OBS Repeat this process to the client and api project.
 
 a sample of the app being used
 
